@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Order>
+    <OrderId>12345</OrderId>
+    <Description>Books for Summer Reading</Description>
+    <RequestDate>2024-11-30</RequestDate>
+    <LineItems>
+        <LineItem>
+            <Book>
+                <BookId>1001</BookId>
+                <BookName>The Time Machine</BookName>
+                <Genre>science-fiction</Genre>
+                <PublishDate>1895-05-07</PublishDate>
+                <Authors>
+                    <Author>
+                        <FirstName>H.G.</FirstName>
+                        <LastName>Wells</LastName>
+                        <Bio>English writer known for his works of science fiction.</Bio>
+                    </Author>
+                </Authors>
+            </Book>
+            <Quantity>2</Quantity>
+            <Price>12.99</Price>
+        </LineItem>
+        <LineItem>
+            <Book>
+                <BookId>1002</BookId>
+                <BookName>Death on the Nile</BookName>
+                <Genre>mystery</Genre>
+                <PublishDate>1937-11-01</PublishDate>
+                <Authors>
+                    <Author>
+                        <FirstName>Agatha</FirstName>
+                        <LastName>Christie</LastName>
+                        <Bio>Famous for detective novels, particularly those featuring Hercule Poirot.</Bio>
+                        <PenName>Mary Westmacott</PenName>
+                    </Author>
+                </Authors>
+            </Book>
+            <Quantity>1</Quantity>
+            <Price>9.50</Price>
+        </LineItem>
+    </LineItems>
+</Order>
